@@ -420,3 +420,78 @@ nav.d-h-main-menu .d-h-menu ul li ul li:hover {
 .d-h-btn-userAccount a i {
     font-size: 19px;
 }
+
+
+
+/********************** start main style **************************/
+
+/* main slider section 2 */
+.full-main-slider {
+    margin-bottom: 50px;
+}
+
+.full-main-slider .main-slider a {
+    display: inline;
+}
+
+.full-main-slider .main-slider .owl-stage-outer {
+    border-radius: 15px;
+}
+
+/* carousel bolets(dots) */
+.full-main-slider .main-slider .owl-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.full-main-slider .main-slider .owl-dots button.owl-dot span {
+    background-color: #000;
+    opacity: .3;
+    width: 7px;
+    height: 7px;
+    margin: 2px 4px;
+}
+
+.full-main-slider .main-slider .owl-dots button.active span {
+    opacity: 1;
+    background-color: white !important;
+    width: 18px;
+}
+
+/* carousel nav */
+.full-main-slider .main-slider .owl-nav {
+    margin: 0px;
+}
+
+.full-main-slider .main-slider .owl-nav button {
+    color: #000;
+    opacity: .3;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 20px;
+    position: absolute;
+    top: 46%;
+}
+
+.full-main-slider .main-slider .owl-nav button:hover {
+    background: none;
+    opacity: 1;
+}
+
+.full-main-slider .main-slider .owl-nav button.owl-prev {
+    right: 10px;
+}
+
+.full-main-slider .main-slider .owl-nav button.owl-prev::before {
+    content: "\f054";
+}
+
+.full-main-slider .main-slider .owl-nav button.owl-next {
+    left: 10px;
+}
+
+.full-main-slider .main-slider .owl-nav button.owl-next::before {
+    content: "\f053";
+}
