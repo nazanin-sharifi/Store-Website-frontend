@@ -720,3 +720,17 @@ nav.d-h-main-menu .d-h-menu ul li ul li:hover {
     top: 15px;
     color: #7e7e7e;
 }
+
+/* main adsBanner section 5 & 7 */
+.full-main-catBanner {
+    margin-bottom: 100px;
+}
+
+.full-main-catBanner .main-catBanner {
+    display: flex;
+    gap: 21px;
+}
+
+.full-main-catBanner .main-catBanner .banner img {
+    border-radius: 15px;
+}
