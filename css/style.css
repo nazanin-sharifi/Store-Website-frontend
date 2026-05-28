@@ -495,3 +495,218 @@ nav.d-h-main-menu .d-h-menu ul li ul li:hover {
 .full-main-slider .main-slider .owl-nav button.owl-next::before {
     content: "\f053";
 }
+
+
+/* main amazing product slider section 3 */
+.full-main-amazing {
+    margin-bottom: 80px;
+}
+
+.full-main-amazing .main-amazing-P {
+    background-color: #f93423;
+    border-radius: 15px;
+    box-shadow: 17px 17px 40px 0px #e5383b12;
+    display: flex;
+    overflow: hidden;
+}
+
+.full-main-amazing .main-amazing-P {
+    padding-left: 10px;
+}
+
+.full-main-amazing .main-amazing-P .thumbnail-showAllBtn {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.full-main-amazing .main-amazing-P .thumbnail-showAllBtn .thumbnail {
+    max-width: 228px;
+    margin: 15px auto;
+}
+
+.full-main-amazing .main-amazing-P .thumbnail-showAllBtn .showAllBtn a {
+    background-color: #FFF;
+    border-radius: 24px;
+    padding: 13px 29px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.full-main-amazing .main-amazing-P .thumbnail-showAllBtn .showAllBtn a i {
+    font-size: 13px;
+}
+
+/* slider */
+.full-main-amazing .main-amazing-P .main-amazingProduct-slider {
+    width: 80%;
+}
+
+
+/***** Product slider items *****/
+.Product-slider-item {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 5px #00000008;
+    margin: 14px 8px;
+    padding: 10px 15px 15px;
+}
+
+.Product-slider-item .color-discount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.Product-slider-item .color-discount .color ul {
+    display: flex;
+    gap: 5px;
+}
+
+.Product-slider-item .color-discount .color ul li {
+    display: flex;
+}
+
+.Product-slider-item .color-discount .color ul li span {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+}
+
+.Product-slider-item .color-discount .color ul li span b {
+    background-color: #303030;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 200;
+    border-radius: 5px;
+    padding: 2px 4px;
+    position: absolute;
+    bottom: 14px;
+    right: -8px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .25s ease-in all;
+}
+
+.Product-slider-item .color-discount .color ul li span:hover b {
+    bottom: 17px;
+    visibility: visible;
+    opacity: 1;
+}
+
+.Product-slider-item .color-discount .dis {
+    background-color: #f93423;
+    color: white;
+    border-radius: 5px;
+    height: 22px;
+    padding: 1px 3px 0;
+}
+
+.Product-slider-item figure a {
+    max-width: 200px;
+    height: 220px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.Product-slider-item figure a img {
+    transition: all .2s ease-out;
+}
+
+.Product-slider-item:hover figure a img {
+    transform: scale(1.06);
+    transition: all .7s ease-out;
+}
+
+.Product-slider-item h2 {
+    font-size: 14px;
+    font-weight: 450;
+    text-align: center;
+    color: #333333;
+    margin-top: 20px;
+    margin-bottom: 7px;
+    height: 48px;
+    overflow: hidden;
+}
+
+/* timer offer */
+.Product-slider-item .box-timer .card-product-box-timer {
+    direction: ltr;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Product-slider-item .box-timer .card-product-box-timer>div.number {
+    background-color: #f93423;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Product-slider-item .box-timer .card-product-box-timer>span.dot {
+    color: #f93423;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 2px;
+}
+
+.Product-slider-item .price-addToCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 10px;
+}
+
+.Product-slider-item .price-addToCard .addToCart a {
+    color: #1bd2a3;
+    border-radius: 50%;
+    font-size: 34px;
+    display: flex;
+}
+
+.Product-slider-item .price-addToCard .addToCart:hover a {
+    color: #18b890;
+}
+
+.Product-slider-item .price-addToCard .price {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    position: relative;
+    padding-left: 15px;
+}
+
+.Product-slider-item .price-addToCard .price del {
+    color: #7e7e7e;
+    font-size: 14px;
+}
+
+.Product-slider-item .price-addToCard .price ins {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.Product-slider-item .price-addToCard .price ins span {
+    font-size: 12px;
+    font-weight: 500;
+    display: inline-block;
+    rotate: -90deg;
+    position: absolute;
+    left: -10px;
+    top: 15px;
+    color: #7e7e7e;
+}
