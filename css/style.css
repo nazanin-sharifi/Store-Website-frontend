@@ -53,6 +53,15 @@ figure {
     margin: auto;
 }
 
+.main-section-title h4 {
+    font-size: 18px;
+    font-weight: 450;
+    border-bottom: 1px solid #f93423;
+    display: inline-block;
+    padding-bottom: 14px;
+    margin-bottom: 17px;
+}
+
 /*** start header style ***/
 header.homePage-header {
     box-shadow: 0 4px 10px 0 #0000000d;
@@ -498,7 +507,8 @@ nav.d-h-main-menu .d-h-menu ul li ul li:hover {
 
 
 /* main amazing product slider section 3 */
-.full-main-amazing {
+.full-main-amazing,
+.full-main-newProduct {
     margin-bottom: 80px;
 }
 

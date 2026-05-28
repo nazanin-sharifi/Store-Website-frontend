@@ -101,3 +101,27 @@ jQuery(document).ready(function () {
     countdownTimer();
 });
 
+
+$('.main-newProduct-slider').owlCarousel({
+    loop: true,
+    margin: 0,
+    nav: false,
+    navText: "",
+    dots: false,
+    autoplay: true,
+    rtl: true,
+    responsive: {
+        // mobile
+        0: {
+            items: 1
+        },
+        // tablet
+        600: {
+            items: 3
+        },
+        // descktop
+        1000: {
+            items: 5
+        }
+    }
+})
